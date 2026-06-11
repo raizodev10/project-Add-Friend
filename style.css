@@ -1,0 +1,160 @@
+/* body {
+    color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+} */
+body {
+  background-color: #b5e67e;
+  position: relative;
+}
+
+video {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.main {
+  position: relative;
+  background-color: none;
+  border-radius: 8px;
+  margin-left: 30vw;
+  margin-top: 5rem;
+  height: 25rem;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 4px solid #111; */
+}
+
+.main img {
+  position: absolute;
+  object-fit: cover;
+  height: 40vh;
+  width: 20vw;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+  transform: 2s;
+  cursor: pointer;
+}
+
+#image1 {
+  position: absolute;
+  top: 10px;
+  object-fit: cover;
+  height: 40vh;
+  width: 35vw;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+  display: none;
+  transform: 2s;
+}
+#heart {
+  position: absolute;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0vh;
+  width: 0vw;
+  margin-bottom: 10rem;
+}
+
+#rode {
+  position: absolute;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0vh;
+  width: 0vw;
+  margin-bottom: 10rem;
+}
+
+#addremove {
+  position: absolute;
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1vh;
+  margin-top: 8rem;
+  background-color: none;
+  /* text-transform: 2s;
+  transition: 1s; */
+}
+
+#addbutton {
+  /* position: absolute;
+  background-color: steelblue;
+  color: bisque;
+
+  */
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 2px solid #000;
+  border-radius: 2px;
+
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15rem;
+  height: 10vh;
+  width: 15vw;
+  aspect-ratio: 1 / 1;
+  fill: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  position: absolute;
+}
+
+#name {
+  position: absolute;
+  object-fit: cover;
+  justify-content: space-between;
+  color: #000000;
+  background-color: blueviolet;
+  border-radius: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  margin-bottom: 30rem;
+}
+
+#homebutton {
+  position: absolute;
+  /* font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 2px solid #000;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-left: 150vh;
+  height: 5vh;
+  width: 5vw;
+  aspect-ratio: 1 / 1;
+  fill: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  position: absolute; */
+}
