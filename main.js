@@ -1,15 +1,3 @@
-
-// let re = document.querySelector("#homebutton");
-
-// re.addEventListener("click"), (dets) => {
-//     //     video.src = "hello.mp4";
-//     //     body.style.backgroundColor = "black";
-//     // console.log(dets);
-//     // re.style.backgroun
-//     re.innerHTML = "black"
-//     // dColor = "#111"
-
-// }
 let text = document.querySelector("#addremove");
 
 let button = document.querySelector("#addbutton");
@@ -22,7 +10,7 @@ let image = document.querySelector("#image");
 
 
 let image1 = document.querySelector("#image1");
-// let imageme = "#image1";
+let imageme = "#image1";
 button.addEventListener("click", (click) => {
 
 
@@ -104,9 +92,4 @@ button.addEventListener("rightclick"), () => {
     else {
         image1.style.disply = "none";
     }
-}
-
-// setTimeout(()=>{
-//     console.log("leon");
-    
-// },2000)
+};
