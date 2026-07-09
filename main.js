@@ -78,7 +78,7 @@ image.addEventListener("click"), () => {
     heart.style.height = "20vh";
     heart.style.width = "10vw";
     heart.style.transition = "2s";
-    // heart.style.opacity = "20%";
+    heart.style.opacity = "20%";
 }
 
 
